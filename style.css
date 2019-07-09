@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.header{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 5%;
+  background-color: #000;
+}
+
+.header>div{
+  width: 60px;
+  height: 30px;
+  border: 1px solid red;
+  margin: 10px;
+}
+
+.navbar{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.navbar>div{
+  width: 50% 50%;
+}
+
+.navbar>.logo{
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  color: #fff;
+  font-size: 20px;
+}
+.navlist ul{
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+ul{
+  list-style-type: none;
+  text-transform: uppercase;
+}
+li{
+  margin: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.body{
+  width: 100%;
+  height: 90vh;
+  /* background-color: green; */
+  border: 1px solid white;
+  margin-bottom: -50px;
+  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/39245/zebra-stripes-black-and-white-zoo-39245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+}
+
+.body_text{
+  text-align: center;
+  margin: 20% auto;
+}
+
+.body_text h1{
+  font-size: 70px;
+  line-height: 60px;
+}
+
+.body_text p{
+  font-size: 25px;
+}
+
+/* ------ Sub Body Styling ------ */
+
+.sub-body{
+  margin-top: 2%;
+  background-color: yellow;
+  width: 100%;
+  height: 90vh;
+  margin-bottom: -50px;
+}
+
+.sub_body{
+  margin-bottom: 20px;
+}
+
+.sub-intro{
+  width: 100%;
+  padding: 20px;
+  margin-top: 10%;
+  text-align: center;
+}
+.sub-intro h2{
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.sub-h1-text{
+  margin-top: 30px;
+}
+
+.sub-intro p{
+  font-size: 18px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.cards>div{
+  width: 270px;
+  height: 300px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 15px;
+}
+
+.card-1>div:nth-of-type(1){
+  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/42329/giraffe-zoo-animals-42329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-position: center;
+}
+
+/* ----- Components Section ----- */
+.components{
+  width: 100%;
+  height: 90vh;
+  background-color: blue;
+  margin-top: -60px;
+}
+
+.comps{
+  margin: ;
+  text-align: left;
+  margin-left: 30px;
+  float: left;
+}
+
+
+/* ------ Footer Section ------ */
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 60vh;
+}
+
+.footer-comp{
+  width: 400px;
+  height: 70px;
+  margin:  20px 50px;
+}
+.footer-comp:nth-of-type(1){
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-comp:nth-of-type(2){
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.head{
+  display: inline-flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+
+}
+
+.head>.head-icon{
+  margin-top: 5px;
+  margin-right: 10px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.head-p{
+  margin-left: 30px;
+}
