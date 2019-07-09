@@ -41,9 +41,10 @@ body{
 .navbar>.logo{
   display: flex;
   justify-content: flex-start;
-  margin: 20px;
+  margin: 18px;
   color: #fff;
   font-size: 20px;
+  cursor: pointer;
 }
 .navlist ul{
   display: inline-flex;
@@ -57,6 +58,8 @@ ul{
 }
 li{
   margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 a{
@@ -68,7 +71,7 @@ a{
   width: 100%;
   height: 90vh;
   /* background-color: green; */
-  border: 1px solid white;
+  border: 1px solid black;
   margin-bottom: -50px;
   background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/39245/zebra-stripes-black-and-white-zoo-39245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
@@ -94,14 +97,14 @@ a{
 
 .sub-body{
   margin-top: 1%;
-  background-color: yellow;
+  background-image: linear-gradient( 110.5deg,  rgba(248,196,249,0.66) 22.8%, rgba(253,122,4,0.15) 64.6% );
   width: 100vw;
   height: 90vh;
   box-sizing: border-box;
 }
 
 .sub_body{
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 .sub-intro{
@@ -131,17 +134,32 @@ a{
 }
 
 .cards>div{
-  width: 270px;
-  height: 300px;
-  border: 1px solid red;
-  padding: 10px;
-  margin: 15px;
+  width: 300px;
+  height: 330px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .card-1>div:nth-of-type(1){
-  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/42329/giraffe-zoo-animals-42329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/1818594/pexels-photo-1818594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size: cover;
   background-position: center;
+  border-radius: 7px;
+}
+
+
+.card-2>div:nth-of-type(1){
+  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/1027162/pexels-photo-1027162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
+}
+
+.card-3>div:nth-of-type(1){
+  background-image: linear-gradient(rgba(85, 85, 85, 0.37), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/1999705/pexels-photo-1999705.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-size: cover;
+  background-position: center;
+  border-radius: 7px;
 }
 
 /* ----- Components Section ----- */
